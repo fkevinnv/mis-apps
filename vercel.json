@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/apps/(.*)",
+      "headers": [
+        { "key": "Content-Type", "value": "application/vnd.android.package-archive" }
+      ]
+    }
+  ]
+}
